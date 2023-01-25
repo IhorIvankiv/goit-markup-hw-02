@@ -1,0 +1,31 @@
+body {
+  background-color: #e5e5e5;
+  color: #434455;
+  padding: 25px;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  width: 1440px;
+  height: 2590px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+.header {
+    flex-direction: row-reverse;
+    background-color: #ffffff;
+}
+
+.navigation {
+    flex-direction: ;
+    margin: 24 0 0 347px;
+}
