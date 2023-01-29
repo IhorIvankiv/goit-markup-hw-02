@@ -27,7 +27,7 @@ body {
   margin: -1px;
 }
 
-.button {
+.filter-button {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -39,6 +39,11 @@ body {
   border-radius: 4px;
 }
 
+.filter-button:hover,
+.filter-button:focus {
+  color: #FFFFFF;
+  background: #404bbf;
+}
 .wrapper {
   width: 1440px;
   margin: 0 auto;
@@ -83,15 +88,12 @@ body {
   color: #f4f4fd;
 }
 
-.team-title {
-  background: #f4f4fd;
-}
+.team-title,
 .team-list {
   background: #f4f4fd;
 }
-.team-item {
-  background: #ffffff;
-}
+
+.team-item,
 .team-text {
   background: #ffffff;
 }
@@ -109,38 +111,17 @@ body {
   color: blue;
 }
 
-.address-text {
+.address-link:hover,
+.address-link:focus {
+  color: blue;
+}
+.address-link {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.wrapper {
-}
-.header {
-}
-.header-navigation {
-}
-.footer-logo {
-}
-.header-list {
-}
-.list {
-}
-.header-item {
-}
-.header-link {
-}
-.link {
-}
-.header-address {
-}
-.address-list {
-}
-.header-tel {
 }
 
 .hero-section {
@@ -161,31 +142,6 @@ body {
   line-height: 24px;
   letter-spacing: 0.04em;
   color: #ffffff;
-}
-
-.features-list {
-}
-.features-item {
-}
-.features-subtitle {
-}
-.features-text {
-}
-.doing-title {
-}
-.doing-list {
-}
-.doing-item {
-}
-.team-title {
-}
-.team-list {
-}
-.team-item {
-}
-.team-subtitle {
-}
-.team-text {
 }
 
 .footer {
