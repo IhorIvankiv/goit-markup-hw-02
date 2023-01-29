@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -16,18 +22,18 @@
         <!-- Header -->
         <header class="header">
           <nav class="header-navigation">
-            <a href="./index.html">
-              <img class="footer-logo" src="./images/Logo.jpg" alt="Logo"></a>
-            </a>
+            <a class="logo-navigation link" href="./index.html"
+              >WEB<span class="logo">STUDIO</span></a
+            >
             <ul class="header-list list">
-              <li class="header-item">
-                <a class="header-lin link" href="./index.html">Studio</a>
+              <li>
+                <a class="nav-link link" href="./index.html">Studio</a>
               </li>
-              <li class="header-item">
-                <a class="header-link link" href="./portfolio.html">Portfolio</a>
+              <li>
+                <a class="nav-link link" href="./portfolio.html">Portfolio</a>
               </li>
-              <li class="header-item">
-                <a class="header-link link" href="">Contacts</a>
+              <li>
+                <a class="nav-link link" href="">Contacts</a>
               </li>
             </ul>
           </nav>
@@ -35,10 +41,14 @@
           <address class="header-address">
             <ul class="address-list list">
               <li>
-                <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="mail-text link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
               </li>
               <li>
-                <a class="header-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                <a class="tel-text link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
               </li>
             </ul>
           </address>
@@ -46,14 +56,17 @@
 
         <main>
           <!-- Hero -->
-          <section>
-            <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <section class="hero-section">
+            <h1 class="hero-title">
+              Effective Solutions <br />
+              for Your Business
+            </h1>
             <button class="hero-button" type="button">Order Service</button>
           </section>
 
           <!-- Features -->
           <section>
-            <h2>Hidden</h2>
+            <h2 class="visually-hidden">Hidden</h2>
             <ul class="features-list list">
               <li class="features-item">
                 <h3 class="features-subtitle">Strategy</h3>
@@ -116,7 +129,7 @@
                   alt="Product Designer"
                   width="264"
                 />
-                <h3 team-subtitle>Mark Guerrero</h3>
+                <h3 class="team-subtitle">Mark Guerrero</h3>
                 <p class="team-text">Product Designer</p>
               </li>
               <li class="team-item">
@@ -125,21 +138,23 @@
                   alt="Frontend Developer"
                   width="264"
                 />
-                <h3 team-subtitle>Tom Ford</h3>
+                <h3 class="team-subtitle">Tom Ford</h3>
                 <p class="team-text">Frontend Developer</p>
-              </li class="team-item">
-              <li>
+              </li>
+
+              <li class="team-item">
                 <img src="./images/Marketing.jpg" alt="Marketing" width="264" />
-                <h3 team-subtitle>Camila Garcia</h3>
+                <h3 class="team-subtitle">Camila Garcia</h3>
                 <p class="team-text">Marketing</p>
               </li>
+
               <li class="team-item">
                 <img
                   src="./images/UI_Designer.jpg"
                   alt="UI Designer"
                   width="264"
                 />
-                <h3 team-subtitle>Daniel Wilson</h3>
+                <h3 class="team-subtitle">Daniel Wilson</h3>
                 <p class="team-text">UI Designer</p>
               </li>
             </ul>
@@ -147,13 +162,11 @@
         </main>
 
         <!-- Page footer -->
-        <footer>
-          <a class="footer-logo" href="./index.html">
-            <img class="footer-logo" src="./images/Logo_footer.jpg" alt="Logo"></a>
-          </a>
+        <footer class="footer">
+          <a class="logo-navigation link" href="./index.html"
+            >WEB<span class="logo-footer">STUDIO</span></a>
           <p class="footer-text">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
+            Increase the flow of customers and sales for your business with digital marketing & growth solutions.
           </p>
         </footer>
       </div>
