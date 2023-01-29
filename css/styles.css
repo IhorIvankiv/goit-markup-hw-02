@@ -102,7 +102,6 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  transition: 0.5s;
 }
 .nav-link:hover,
 .nav-link:focus,
@@ -110,15 +109,8 @@ body {
   color: blue;
 }
 
-.mail-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.tel-text {
+.address-text {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -170,8 +162,7 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
-.visually-hidden {
-}
+
 .features-list {
 }
 .features-item {
