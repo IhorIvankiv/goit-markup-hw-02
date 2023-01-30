@@ -6,7 +6,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  color: var(--body-text-color);
+  color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
 }
 
@@ -144,7 +144,7 @@ color: var(--primary-text-color);
 }
 
 .hero-section {
-  background: var(--primary-bg-color);
+  background: #2e2f42;
 }
 
 .hero-title {
@@ -171,7 +171,7 @@ color: var(--primary-text-color);
 }
 
 .footer {
-  background: var(--primary-bg-color);
+  background: #2e2f42;
 }
 
 .footer-text {
