@@ -1,17 +1,23 @@
 :root {
---primary-text-color: #434455
---primary-bg-color: #2E2F42
+  --primary-text-color: #434455;
+  --secondary-text-color: #2e2f42;
+  --footer-text-color: #e7e9fc;
+  --primary-bg-color: #2e2f42;
+  --hero-bg-color: rgba(46, 47, 66, 0.7);
+  --light-mode-bg: #f4f4fd;
+  --active-states-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+}
+
+ul {
+  list-style: none;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: var(--primary-text-color);
-  background-color: var(--primary-bg-color);
-}
-
-.list {
-  list-style: none;
+  background-color: #fff;
 }
 
 .link {
@@ -32,60 +38,12 @@ body {
   margin: -1px;
 }
 
-.features-subtitle,
-.team-subtitle,
-.filter-subtitle {
-  font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--primary-bg-color);
-}
-
-.doing-title,
-.team-title {
-  font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-color: var(--primary-bg-color);
-}
-
-.team-text,
-.filter-text {
-  font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--primary-text-color);
-}
-
-.filter-button {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5x;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background: #f4f4fd;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.filter-button:hover,
-.filter-button:focus {
-  color: #FFFFFF;
-  background: #404bbf;
-}
-
 .header {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .logo-navigation {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -105,38 +63,26 @@ color: var(--primary-text-color);
   font-style: normal;
 }
 
-.team-title,
-.team-list {
-  background: #f4f4fd;
-  margin: 0;
-}
-
-.team-item {
-  background: #ffffff;
-  margin: 0;
-}
-
 .nav-link {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-bg-color);
+  color: var(--secondary-text-color);
 }
 
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.current {
-  color: #404BBF;
+  color: var(--pressed-state-color);
 }
 
 .address-link:hover,
 .address-link:focus {
-  color: #404BBF;
+  color: var(--pressed-state-color);
 }
 
 .address-link {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -144,40 +90,105 @@ color: var(--primary-text-color);
 }
 
 .hero-section {
-  background: #2e2f42;
+  background: var(--primary-bg-color);
 }
 
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: #fff;
 }
 
 .hero-button {
   font-family: inherit;
-  background: #4d5ae5;
+  background: var(--active-states-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background: #404BBF
+  background: var(--pressed-state-color);
+}
+
+.features-subtitle,
+.team-subtitle,
+.filter-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.features-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.doing-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+.team-text,
+.filter-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.team-title,
+.team-list {
+  background: var(--light-mode-bg);
+  margin: 0;
+}
+
+.team-item {
+  background: #fff;
+  margin: 0;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: #fff;
+  background: var(--pressed-state-color);
+}
+
+.filter-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--active-states-color);
+  background: var(--light-mode-bg);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .footer {
-  background: #2e2f42;
+  background: var(--primary-bg-color);
 }
 
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--footer-text-color);
 }
